@@ -1,0 +1,203 @@
+<html>
+    <head>
+        <title>Simple Page</title>
+    </head>
+    <body>
+        <style>
+            .header{ 
+                float: left; 
+                width:100%;
+                height: 100px;  
+                text-align: center;
+                background-image: linear-gradient(rgb(255, 255, 255), rgba(255, 255, 255, 0.514));
+            }
+            .footer{
+                position: fixed;
+                padding-left: 20px;
+                padding-right: 20px;
+                bottom:0px;
+                float: left;
+                left:0px;
+                width:100%;
+                height: 50px; 
+                background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255));
+                text-align: left;
+            }
+            body{
+                background-image: url("https://wallpapercave.com/wp/wp7861345.jpg"); 
+                background-repeat: no-repeat; /* Do not repeat the image */
+                background-size:cover; /* Resize the background image to cover the entire container */
+            } 
+            .textShadowblack{
+                text-shadow: 0px 0px 20px #000000;
+                color:rgb(255, 255, 255);
+                font-weight: bold;
+                font-size:40px;
+            }
+            .fox{
+                width:30px;
+                transform: scale(1); 
+                animation: rotates 3.5s infinite; 
+                margin-top: 10px; 
+            } 
+            @keyframes rotates {
+                0% { 
+                    filter: drop-shadow( 0px  0px 4px #000000);
+                    transform: rotate(30deg);
+                }
+
+                70% { 
+                    filter: drop-shadow(0px  0px 8px #000000);
+                    transform: rotate(-30deg);
+                }
+
+                100% { 
+                    filter: drop-shadow(0px  0px 4px #000000);
+                    transform: rotate(30deg);
+                }
+            }
+            .fox2{
+                width:70px;
+                transform: scale(1); 
+                animation: anim 3.5s infinite; 
+                margin-top: 10px; 
+            } 
+            @keyframes anim {
+                0% { 
+                    filter: drop-shadow( 0px  0px 4px #000000);
+                    transform: scale(0.8,0.8)
+                }
+
+                70% { 
+                    filter: drop-shadow(0px  0px 8px #000000);
+                    transform: scale(1,1)
+                }
+
+                100% { 
+                    filter: drop-shadow(0px  0px 4px #000000);
+                    transform: scale(0.8,0.8)
+                }
+            }
+            .gridItemLeft{
+               width: 33%; 
+               height: 80%;
+               float: left; 
+               background-color:#72727294;
+               padding-left: 10px;
+               padding-right: 10px;
+            }
+            .gridItemRight{
+               width: 33%; 
+               height: 80%;
+               float: right;  
+               padding-left: 10px;
+               padding-right: 10px;
+               background-color:#72727294;
+            } 
+            .gridItemBG{
+                background-color: white;
+            } 
+            h3{
+                color: #000000d3;
+            }
+        </style>
+        <div class="header">
+            <h1 class=" textShadowblack">Arctic fox</h1> 
+            <img class="fox2" src="https://cdn-icons-png.flaticon.com/512/2446/2446176.png"  >
+        </div> 
+        <div class="gridItemLeft"> 
+            <h3 >Did You Knew ?</h3>
+            <Ul>
+                <li style="text-align:justify ;font-size: 18px;color: #000000b9;">
+                    An arctic fox's long, fluffy tail acts like a blanket, keeping the fox warm when it wraps the tail around its body to sleep.
+                </li>
+                <li style="text-align:justify ;font-size: 18px;color: #000000b9;">
+                    Arctic foxes can be white, brown, or even blueish-gray. Its color depends on the time of year.
+                </li>
+                <li style="text-align:justify ;font-size: 18px;color: #000000b9;">
+                    An arctic fox follows a polar bear on a hunting trip so it can eat the bear's leftovers.
+                </li>
+            </Ul>
+            <h3>ARCTIC FOX 3 FACTS</h3>
+            <ol>
+                <li style="text-align:justify ;font-size: 18px;color: #000000b9;">
+                    An arctic fox can smell a seal den a mile away.
+                </li>
+                <li style="text-align:justify ;font-size: 18px;color: #000000b9;">
+                    Arctic fox dens are used for generations—some are as old as 300 years.
+                </li>
+                <li style="text-align:justify ;font-size: 18px;color: #000000b9;">
+                    These foxes have small ears. That reduces heat loss because less is exposed to the cold.
+                </li>
+            </ol>
+        </div> 
+        <div class="gridItemRight"> 
+            <h3>Details</h3>
+            <table style="width:100%;border-style: solid; border-color: rgba(255, 255, 255, 0.651);">
+                <tr >
+                    <td style="font-size: 16px; font-weight: bolder; color: #000000b9;">Common name</td>
+                    <td style="color: #000000b9;">: Arctic foxes</td>
+                </tr>
+                <tr >
+                    <td style="font-size: 16px; font-weight: bolder; color: #000000b9;">Scientific Name</td>
+                    <td style="color: #000000b9">: Vulpes lagopus</td>
+                </tr>
+                <tr >
+                    <td style="font-size: 16px; font-weight: bolder; color: #000000b9;">Type</td>
+                    <td style="color: #000000b9">: Mammals</td>
+                </tr>
+                <tr >
+                    <td style="font-size: 16px; font-weight: bolder; color: #000000b9;">Diet</td>
+                    <td style="color: #000000b9">: Omnivore</td>
+                </tr>
+                <tr >
+                    <td style="font-size: 16px; font-weight: bolder; color: #000000b9;">Group Name</td>
+                    <td style="color: #000000b9">: Skulk, leash</td>
+                </tr>
+                <tr >
+                    <td style="font-size: 16px; font-weight: bolder; color: #000000b9;">Life Span</td>
+                    <td style="color: #000000b9">: 3 to 6 years</td>
+                </tr>
+                <tr >
+                    <td style="font-size: 16px; font-weight: bolder; color: #000000b9;">Weight </td>
+                    <td style="color: #000000b9">:
+                        6.5 to 17 pounds</td>
+                </tr>
+            </table>
+            <h3>Further References</h3> 
+            <div style=" width:100%;   float: left;margin-right:5px ;margin-top:5px ;">
+                <div style=" width:30%; height:70px; float: left;margin-right:5px ;margin-top:5px ;border-style: solid; border-color: rgba(255, 255, 255, 0.651);">
+                    <a href="https://kids.nationalgeographic.com/animals/mammals/facts/arctic-fox">
+                        <img src="https://i.natgeofe.com/n/9809eae8-2750-4ecf-9d48-1de552cf0f78/kids.png?w=177&h=75" style=" width:100%;">
+                    </a>
+                </div>
+                <div style=" width:30%;height:70px;float: left;margin-right:5px ;margin-top:5px ;border-style: solid; border-color: rgba(255, 255, 255, 0.651);">
+                    <a href="https://www.britannica.com/animal/Arctic-fox">
+                        <img src="https://cdn.britannica.com/mendel/eb-logo/MendelNewThistleLogo.png" style=" width:100%;padding-top: 20px; padding-bottom: auto;" >
+                    </a>
+                </div>
+                
+                <div style=" width:30%;height:70px;float: left;margin-top:5px ;border-style: solid; border-color: rgba(255, 255, 255, 0.651);">
+                    <a href="https://nhpbs.org/natureworks/arcticfox.htm">
+                        <img src="https://nhpbs.org/images/nhpbs-logo-white.png" style=" width:100%;padding-top: 20px; padding-bottom: auto;" >
+                    </a>
+                </div> 
+                <div style="  width:30%; height:70px; float: left;margin-right:5px ;margin-top:5px ;border-style: solid; border-color: rgba(255, 255, 255, 0.651);">
+                    <a href="https://royalsocietypublishing.org/doi/10.1098/rspb.2021.1452">
+                        <img src="https://royalsocietypublishing.org/products/rsj/releasedAssets/images/logo.svg" style=" width:100%;padding-top: 20px; padding-bottom: auto;">
+                    </a>
+                </div>
+                <div style=" width:30%;height:70px;float: left;margin-right:5px ;margin-top:5px ;border-style: solid; border-color: rgba(255, 255, 255, 0.651);">
+                    <a href="https://www.coolantarctica.com/Antarctica%20fact%20file/wildlife/Arctic_animals/arctic_fox.php">
+                        <img src="https://www.coolantarctica.com/1THEME/logo-map.png" style=" width:100%; padding-top: 20px; padding-bottom: auto;" >
+                    </a>
+                </div>
+            </div>  
+            
+        </div>  
+        <div class="footer">
+            <img class="fox" src="https://cdn-icons-png.flaticon.com/512/2446/2446176.png" style="float:inline-start;">
+            <p style="float:inline-start; margin-left:10px; font-weight: bolder;">Created By : Kumuduni Jayakody</p>
+        </div>
+    </body>
+</html>
